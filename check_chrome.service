@@ -3,7 +3,7 @@ Description=chrome status checker
 After=network.target
 
 [Service]
-ExecStart=/home/hp/Pradeep-practice/linux/chrome-status.sh 
+ExecStart=/home/hp/Pradeep-practice/linux/check_chrome.sh
 
 [Install]
 WantedBy=multi-user.target
