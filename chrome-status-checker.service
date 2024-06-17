@@ -1,0 +1,9 @@
+[Unit]
+Description=chrome status checker
+After=network.target
+
+[Service]
+ExecStart=/home/hp/Pradeep-practice/linux/chrome-status.sh 
+
+[Install]
+WantedBy=multi-user.target
